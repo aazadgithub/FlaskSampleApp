@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Resource, Api
 
-Print('This is flask sample application in Github integrated with Jenkins')
+Print('This is flask sample application in Github integration with Jenkins')
 
 application = Flask(__name__)
 api = Api(application)
