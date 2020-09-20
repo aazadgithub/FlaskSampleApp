@@ -9,5 +9,7 @@ class Sample(Resource):
         return {"About": "Flask Elb Sample application"}
 
 api.add_resource(Sample, '/')
+
 if __name__== '__main__':
     application.run()
+
